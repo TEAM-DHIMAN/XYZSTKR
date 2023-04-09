@@ -120,7 +120,7 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "Hi, I just create telegram sticker from the text messages you send me. \nMy creator @eyaadh did a YouTube "
+        "Hi, I just create telegram sticker from the text messages you send me. \nMy creator @i_dxlvir did a YouTube "
         "[video](https://youtu.be/dVrA9hit4ks) on how he created me. The link for my source is on the video "
         "description, you can fork the project and make a better version of me.",
         disable_web_page_preview=True
